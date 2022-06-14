@@ -1,0 +1,47 @@
+$light: #ffffff;
+$active-color: #F49897;
+$bg-color: #0000001c;
+$font-size: 24px;
+
+#navbar {
+    background-color: transparent;
+    width: 100vw;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+    font-size: $font-size;
+    z-index: 99;
+    cursor: context-menu;
+
+    .download_cv {
+        button {
+            padding: 5px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            color: $light;
+            transition: 0.2s;
+            font-size: 18px;
+            font-size: $font-size;
+            text-decoration: line-through;
+
+            &:hover {
+                background-color: $active-color;
+                color: $light;
+                transform: scale(1.1);
+                background: url(https://i.pinimg.com/originals/06/ef/85/06ef85387808647f24c1d6b3dca84e0f.gif);
+                background-size: cover;
+                text-decoration: none;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+            &:active {
+                transform: scale(1);
+            }
+        }
+    }
+}

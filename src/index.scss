@@ -1,0 +1,32 @@
+@font-face {
+  font-family: goshiHand;
+  src: url(./assets/fonts/GochiHand-Regular.ttf);
+}
+
+* {
+  font-family: goshiHand;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #172A29;
+  color: rgb(255, 255, 255)
+}
+
+::-webkit-scrollbar {
+  width: 0;
+
+  // &-track {
+  //   width: 10px;
+  //   background-color: transparent;
+  // }
+
+  // &-thumb {
+  //   background-color: #F29492;
+  //   border-radius: 10px;
+  // }
+}
